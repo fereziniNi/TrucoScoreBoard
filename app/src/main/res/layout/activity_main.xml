@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:letterSpacing="0.3"
+        android:text="EQUIPE A"
+        android:textColor="#EDEDED"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:letterSpacing="0.3"
+        android:text="EQUIPE B"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numberA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:text="0"
+        android:textAllCaps="false"
+        android:textColor="#d32f2f"
+        android:textSize="130sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/numberB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/numberB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="90dp"
+        android:text="0"
+        android:textAllCaps="false"
+        android:textColor="#d32f2f"
+        android:textSize="130sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numberA"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/addOneA"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#d32f2f"
+        android:text="+1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/addOneB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberA" />
+
+    <Button
+        android:id="@+id/addOneB"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#d32f2f"
+        android:text="+1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addOneA"
+        app:layout_constraintTop_toBottomOf="@+id/numberB" />
+
+    <Button
+        android:id="@+id/trucoB"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#d32f2f"
+        android:text="+3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trucoA"
+        app:layout_constraintTop_toBottomOf="@+id/addOneB" />
+
+    <Button
+        android:id="@+id/trucoA"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#d32f2f"
+        android:text="+3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/trucoB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addOneA" />
+
+    <Button
+        android:id="@+id/resetGame"
+        android:layout_width="283dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#d32f2f"
+        android:text="Resetar Game"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
