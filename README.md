@@ -1,8 +1,8 @@
 # 🎴 TrucoScoreBoard
 
-![GitHub repo size](https://img.shields.io/github/repo-size/fereziniNi/TrucoScoreBoard?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/fereziniNi/TrucoScoreBoard?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/fereziniNi/TrucoScoreBoard?style=for-the-badge)
+![Tamanho do Repo](https://img.shields.io/github/repo-size/fereziniNi/TrucoScoreBoard?style=for-the-badge&color=orange)
+![Linguagens](https://img.shields.io/github/languages/count/fereziniNi/TrucoScoreBoard?style=for-the-badge&color=orange)
+![Ultimo Commit](https://img.shields.io/github/last-commit/fereziniNi/TrucoScoreBoard?style=for-the-badge&color=orange)
 
 > Um marcador de tentos moderno, intuitivo e eficiente para suas partidas de Truco. Chega de brigar por causa de palitos ou furos na mesa!
 
