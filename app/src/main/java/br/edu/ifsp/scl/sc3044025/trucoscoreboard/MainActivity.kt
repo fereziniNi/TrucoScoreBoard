@@ -58,10 +58,12 @@ class MainActivity : AppCompatActivity() {
         if(pontosA == 11){
             amb.trucoA.isEnabled = false
             amb.trucoA.backgroundTintList = ColorStateList.valueOf(Color.GRAY)
+            amb.maoOnzeA.visibility = android.view.View.VISIBLE
         }
         if(pontosB == 11){
             amb.trucoB.isEnabled = false
             amb.trucoB.backgroundTintList = ColorStateList.valueOf(Color.GRAY)
+            amb.maoOnzeB.visibility = android.view.View.VISIBLE
         }
     }
 
@@ -98,6 +100,8 @@ class MainActivity : AppCompatActivity() {
         amb.trucoA.isEnabled = true
         amb.trucoB.isEnabled = true
 
+        amb.maoOnzeA.visibility = android.view.View.INVISIBLE
+        amb.maoOnzeB.visibility = android.view.View.INVISIBLE
 
         amb.trucoB.backgroundTintList =
             ColorStateList.valueOf(Color.parseColor("#d32f2f"))
